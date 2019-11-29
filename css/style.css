@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:300);
+body { 
+	font-family: "Nunito", sans-serif; 
+	font-size: 16px; 
+	text-align: center;
+	margin-top: 100px;
+  }
+
+.navbar{
+box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  height: 100%;
+  overflow: auto;
+  cursor: pointer;
+  text-align: center;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.sidebar p {
+  display: block;
+  color: black;
+  padding: 16px;
+}
+ 
+.sidebar p.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.sidebar p:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+.citygrid{
+	text-align: center;
+	margin-top: 65px;
+}
+#temprow{
+	/*display: none;*/
+}
